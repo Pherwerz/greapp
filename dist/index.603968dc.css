@@ -160,12 +160,36 @@ button:focus {
   display: none;
 }
 @media screen and (max-width: 48em) {
-  .nav {
+  .nav-show {
     display: block;
   }
 }
-.nav-show {
-  display: block;
+.nav-body {
+  background-color: var(--white);
+  margin: auto;
+  width: 90%;
+  margin-top: 10rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 4rem;
+}
+.nav-close {
+  margin-bottom: 5rem;
+}
+.nav-close svg {
+  height: 4rem;
+  width: 4rem;
+}
+.nav-list {
+  list-style: none;
+  margin-bottom: 5rem;
+}
+.nav-item {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .overview {
