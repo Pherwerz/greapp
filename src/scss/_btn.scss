@@ -1,0 +1,21 @@
+.btn {
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  display: flex;
+  align-items: center;
+
+  &-pink {
+    color: var(--black);
+    background: #f7d1b0;
+    border-radius: 1.8rem 0 0 0;
+    padding: 1.4rem 2rem;
+  }
+
+  &-black {
+    padding: 1.5rem 3.2rem;
+    background: var(--black);
+    border-radius: 0 0 1.8rem 0;
+    color: var(--white);
+  }
+}

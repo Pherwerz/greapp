@@ -1,0 +1,65 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark: #0c0a08;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  @media screen and (max-width: 85.375em) {
+    font-size: 60%;
+  }
+
+  @media screen and (max-width: 75em) {
+    font-size: 50%;
+  }
+
+  @media screen and (max-width: 62em) {
+    font-size: 45%;
+  }
+
+  @media screen and (max-width: 48em) {
+    font-size: 40%;
+  }
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'DM Sans', sans-serif;
+  position: relative;
+  font-weight: 400;
+  background-color: var(--white);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.p {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: var(--dark);
+}
+
+@import './header';
+@import './btn';
+@import './nav';
+@import './overview';
