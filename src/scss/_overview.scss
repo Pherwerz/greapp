@@ -28,8 +28,7 @@
     }
 
     & h1 {
-      width: 48.5rem;
-      max-width: 90%;
+      width: 100%;
       font-weight: 700;
       font-size: 6.4rem;
       line-height: 8.3rem;
@@ -39,6 +38,7 @@
 
       @media screen and (max-width: 48em) {
         font-size: 5.4rem;
+        text-align: center;
       }
     }
 
